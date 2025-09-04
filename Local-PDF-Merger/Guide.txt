@@ -1,0 +1,10 @@
+Before you run the python script, you'll need to ensure that the pre-requisites have been met.
+
+1. Go to Installation folder and execute the "Install.bat" file to install the required python libraries.
+
+How the script works:
+
+1. It will merge all of the PDF files in a single folder based on the current date and merge these PDF's into a single PDF file.
+2. If the folder of the current date does not exist, the automation will create one, and place the PDF files to merge there. After that you need to rerun the script.
+3. After the PDFs have succesfully been merged, it will create a new folder with the next day's date.
+4. If any issue occurs you can check the logs generated in the Logs folder.
